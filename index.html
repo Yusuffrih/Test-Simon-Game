@@ -19,8 +19,12 @@
         <h1><i class="fas fa-music"></i> Piano Bop <i class="fas fa-music"></i></h1>
     </header>
     <main  class="container">
+        
         <h2 id="banner">Learn to play the piano in no time!</h2>
+        
         <button class="btn-lg btn-secondary" id="play-button">Play</button>
+        <span class="info hidden"></span>
+
         <div id="game-area" class="row">
                 <div class="piano-key white" data-note="C-note">
                     <p>C</p>
@@ -64,7 +68,9 @@
                     <p>B</p>
                 </div>
         </div>
+
         <div class="hidden">
+
             <audio src="assets/sounds/notes_C.mp3" data-sound="C"></audio>
             <audio src="assets/sounds/notes_Db.mp3" data-sound="Db"></audio>
             <audio src="assets/sounds/notes_D.mp3" data-sound="D"></audio>
@@ -77,13 +83,19 @@
             <audio src="assets/sounds/notes_A.mp3" data-sound="A"></audio>
             <audio src="assets/sounds/notes_Bb.mp3" data-sound="Bb"></audio>
             <audio src="assets/sounds/notes_B.mp3" data-sound="B"></audio>
+
         </div>
+
         <div><h3>Score: <span id="score">0</span></h3></div>
+
         <button class="btn-lg btn-secondary" id="feedback-button">Any Feedback?</button>
+
     </main>
+
     <footer>
         <a href="https://github.com/Yusuffrih/" target="_blank"><i class="fab fa-github"></i></a>
     </footer>
-    <script src="assets/script.js"></script>
+    
+    <script src="assets/javascript/script.js"></script>
 </body>
 </html>
