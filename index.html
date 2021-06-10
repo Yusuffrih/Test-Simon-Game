@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <!-- Bootrap CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- JQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!-- Local CSS link  -->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <title>Piano Bop</title>
+</head>
+<body>
+    <header>
+        <h1><i class="fas fa-music"></i> Piano Bop <i class="fas fa-music"></i></h1>
+    </header>
+    <main  class="container">
+        <h2 id="banner">Learn to play the piano in no time!</h2>
+        <button class="btn-lg btn-secondary" id="play-button">Play</button>
+        <div id="game-area" class="row">
+                <div class="piano-key white" data-note="C-note">
+                    <p>C</p>
+                </div>
+                <div class="piano-key black" data-note="Db-note">
+                    <p>C#</p>
+                    <p>Db</p>
+                </div>
+                <div class="piano-key white" data-note="D-note">
+                    <p>D</p>
+                </div>
+                <div class="piano-key black" data-note="Eb-note">
+                    <p>D#</p>
+                    <p>Eb</p>
+                </div>
+                <div class="piano-key white" data-note="E-note">
+                    <p>E</p>
+                </div>
+                <div class="piano-key white lg-screen-only" data-note="F-note">
+                    <p>F</p>
+                </div>
+                <div class="piano-key black lg-screen-only" data-note="Gb-note">
+                    <p>F#</p>
+                    <p>Gb</p>
+                </div>
+                <div class="piano-key white lg-screen-only" data-note="G-note">
+                    <p>G</p>
+                </div>
+                <div class="piano-key black lg-screen-only" data-note="Ab-note">
+                    <p>G#</p>
+                    <p>Ab</p>
+                </div>
+                <div class="piano-key white lg-screen-only" data-note="A-note">
+                    <p>A</p>
+                </div>
+                <div class="piano-key black lg-screen-only" data-note="Bb-note">
+                    <p>A#</p>
+                    <p>Bb</p>
+                </div>
+                <div class="piano-key white lg-screen-only" data-note="B-note">
+                    <p>B</p>
+                </div>
+        </div>
+        <div><h3>Score: <span id="score">0</span></h3></div>
+        <button class="btn-lg btn-secondary" id="feedback-button">Any Feedback?</button>
+    </main>
+    <footer>
+        <a href="https://github.com/Yusuffrih/" target="_blank"><i class="fab fa-github"></i></a>
+    </footer>
+    <script src="assets/script.js"></script>
+</body>
+</html>
