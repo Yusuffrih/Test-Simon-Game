@@ -83,7 +83,7 @@ main {
     top: 250px;
 }
 
-.white.active {
+.white.activated {
     background-color: white;
 }
 
@@ -92,7 +92,7 @@ main {
     top: 80px;
 }
 
-.black.active {
+.black.activated {
     background-color: rgb(31, 30, 30) ;
 }
 
